@@ -32,6 +32,26 @@ img{
     
     
  }
-@media (min-heigth<800) {
+ .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+ }
+ .form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   
 }
+@media (max-width:650px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+         text-align: center;
+         
+        
+    }
+}
+
