@@ -1,102 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+     
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster"
+      rel="stylesheet"
+     
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Tribute Page</title>
   </head>
-
   <body>
-    <header id="header">
-      <img id="header-img" src="./img/product-landing-page-logo.png"/>
-      <nav id = "nav-bar">
-        <ul  class="nav-bar-ul">
-          <li class="nav-bar-li"><a class="nav-link" href="#form">Features</a></li>
-          <li class="nav-bar-li"><a class="nav-link" href="#video"> How It Works</a></li>
-          <li class="nav-bar-li"> <a class="nav-link" href="#header">Pricing</a></li>
-        </ul>  
-      </nav>
-
-    </header>
-
-   
-
-     <div class="container">
-        <h1>Handcrafted, home-made masterpieces
-        </h1>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input id="email" placeholder="Enter your email address" type="email" name="email"/>
-          <input type="submit" id="submit"/> 
-        </form>    
-    
-       
-       <section id="form" class="form">
-         <div class="form-id">
-           <h1>Premium Materials</h1>
-           <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-          </div>
-          <div class="form-id">
-            <h1>Fast Shipping</h1>
-            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-            
-          </div>
-          <div class="form-id">
-            <h1>Quality Assurance</h1>
-            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-          </div>
+    <h1>Tribute Page</h1>
+    <p>The below card was designed as a tribute page for freeCodeCamp.</p>
+    <main id="main">
+      <div id="img-div">
+        <img
+          id="image"
+          class="border"
+          src="https://upload.wikimedia.org/wikipedia/en/5/53/Pok%C3%A9mon_Togepi_art.png"
+          alt="An image of Togepi"
+        />
+        <figcaption id="img-caption">Togepi, happy as always.</figcaption>
+      </div>
+      <h2 id="title">Togepi</h2>
+      <hr />
+      <div id="tribute-info">
+        <p>
+          Togepi was first discovered in the Johto region, when Ash Ketchum
+          discovered a mysterious egg. However, when the egg hatched, Togepi saw
+          Ash's friend Misty first and imprinted on her. Like many other
+          creatures, this imprinting process created a bond and Togepi views
+          Misty as his mother.
         </p>
-        
-      </section>
-
-    <iframe width="500" height="350" id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"></iframe>
-    
-    
-
-
-    <section id="pricing">
-      <div id="box">
-        <div id="box-header">
-          TENOR TROMBONE
-        </div>
-        <div id="box-price"><h3>$600</h3></div>
-        <div id="box-desc">
-          <h4>Lorem ipsum.</h4>
-          <h4>Lorem ipsum.</h4>
-          <h4>Lorem ipsum dolor.</h4>
-          <h4>Lorem ipsum.</h4>
-        </div>
-        <button id="button">SELECT</button>
+        <p>
+          Togepi is a very childlike Pokemon, and is very emotionally
+          expressive. He demonstrates extreme levels of joy and sadness.
+        </p>
+        <hr />
+        <p><u>Battle Information</u></p>
+        <ul style="list-style-type: none">
+          <li>Type: Fairy</li>
+          <li>Evolutions: Togepi -> Togetic -> Togekiss</li>
+          <li>Moves: Growl, Pound, Sweet Kiss, Charm</li>
+          <li>Weaknesses: Poison, Steel</li>
+          <li>Resistances: Dragon</li>
+        </ul>
+        <p>
+          Check out this
+          <a
+            id="tribute-link"
+            href="https://bulbapedia.bulbagarden.net/wiki/Togepi_(Pok%C3%A9mon)"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Bulbapedia article on Togepi</a
+          >
+          for more information on this great Pokemon.
+        </p>
       </div>
-
-      <div id="box">
-        <div id="box-header">
-          BASS TROMBONE
-        </div>
-        <div id="box-price">$900</div>
-        <div id="box-desc">
-          <h4>Lorem ipsum.</h4>
-          <h4>Lorem ipsum.</h4>
-          <h4>Lorem ipsum dolor.</h4>
-          <h4>Lorem ipsum.</h4>
-        </div>
-        <button id="button">SELECT</button>
-      </div>
-
-      <div id="box">
-        <div id="box-header">
-          VALVE TROMBONE
-        </div>
-        <div id="box-price">$1200</div>
-        <div id="box-desc">
-          <h4>Lorem ipsum.</h4>
-          <h4>Lorem ipsum.</h4>
-          <h4>Lorem ipsum dolor.</h4>
-          <h4>Lorem ipsum.</h4>
-        </div>
-        <button id="button">SELECT</button>
-      </div>
-    </section>
-  </div>
-    
-    <script  src="js/index.js"></script>
+    </main>
   </body>
+  <footer>
+    <a href="../">Return to Project List</a> |
+    <a href="https://www.nhcarrigan.com">Return to HomePage</a>
+  </footer>
+</html>
